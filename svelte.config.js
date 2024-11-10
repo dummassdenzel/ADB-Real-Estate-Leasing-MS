@@ -21,27 +21,7 @@ const config = {
     paths: {
       base: "/ADB-Real-Estate-Leasing-MS",
     },
-  },const config = {
-  preprocess: vitePreprocess(),
-  kit: {
-    adapter: adapter({
-      pages: "build",
-      assets: "build",
-      fallback: "index.html",
-      precompress: false,
-      strict: true,
-    }),
-    paths: {
-      base: "/ADB-Real-Estate-Leasing-MS",
-    },
-    // Add trailingSlash to handle routes with and without trailing slashes
-    trailingSlash: 'always',
-    // Add hydrate the <div id="svelte"> element in src/app.html
-    hydrate: true,
   },
-};
-
-export default config;
 };
 
 export default config;
