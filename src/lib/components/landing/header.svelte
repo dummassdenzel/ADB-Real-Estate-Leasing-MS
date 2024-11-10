@@ -7,10 +7,10 @@
 
     <!-- navigation bar -->
     <nav class="flex items-center gap-10">
-        <a href="#home" class="font-semibold text-slate text-xs hover:text-midnight">Home</a>
-        <a href="#about" class="font-semibold text-slate text-xs hover:text-midnight">About</a>
-        <a href="#features" class="font-semibold text-slate text-xs hover:text-midnight">Features</a>
-        <a href="#contact" class="font-semibold text-slate text-xs hover:text-midnight">Contact</a>
+        <a href="" class="font-semibold text-slate text-xs hover:text-midnight">Home</a>
+        <a href="" class="font-semibold text-slate text-xs hover:text-midnight">About</a>
+        <a href="" class="font-semibold text-slate text-xs hover:text-midnight">Features</a>
+        <a href="" class="font-semibold text-slate text-xs hover:text-midnight">Contact</a>
     </nav>
 
     <!-- login button -->
