@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Header from "../lib/components/landing/header.svelte";
-  import Hero from "../lib/components/landing/hero";
+  import Header from "$lib/components/landing/header.svelte";
+  import Hero from "$lib/components/landing/hero.svelte";
 </script>
 
 <h1 class="text-red-500">Test</h1>
