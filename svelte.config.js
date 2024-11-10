@@ -21,9 +21,6 @@ const config = {
     paths: {
       base: "/ADB-Real-Estate-Leasing-MS",
     },
-    alias: {
-      $lib: path.resolve("./src/lib"),
-    },
   },
 };
 
