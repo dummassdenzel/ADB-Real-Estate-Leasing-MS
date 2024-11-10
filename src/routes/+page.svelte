@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Header from "$lib/components/landing/header.svelte";
   import Hero from "$lib/components/landing/hero.svelte";
 </script>
