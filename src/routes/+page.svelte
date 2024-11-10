@@ -5,8 +5,8 @@
 
 
 <section class="flex flex-col gap-40">
-    <!-- <Header />
-        <Hero /> -->
+    <Header />
+    <Hero />
 </section>
     
 <h1 class="text-red-500">Test</h1>
