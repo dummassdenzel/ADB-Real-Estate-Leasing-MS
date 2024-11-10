@@ -1,5 +1,9 @@
-<h1 class="text-red-500">Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
-  documentation
-</p>
+<script>
+  import Header from "$lib/components/landing/header.svelte";
+  import Hero from "$lib/components/landing/hero.svelte";
+</script>
+
+<main class="flex flex-col gap-40">
+  <Header />
+  <Hero />
+</main>

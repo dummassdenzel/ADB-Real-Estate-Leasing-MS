@@ -2,54 +2,25 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 html {
-  scroll-behavior: smooth;
-  color: #ffffff; /* Change to white for better visibility */
+  margin: 40px 100px 40px 100px;
+  font-family: "DM Sans";
+  height: auto;
 }
 
-body {
-  background-color: #1a1a1a; /* Ensure a dark background for contrast */
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0;
 }
-
-* {
-  font-family: "Roboto", sans-serif;
+::-webkit-scrollbar-track {
+  background: none;
 }
-
-h1,
-h2,
-h3,
-.poppins {
-  font-family: "Poppins", sans-serif;
+::-webkit-scrollbar-thumb {
+  background: none;
 }
-
-.blueShadow {
-  box-shadow: 0px 14px 55px rgba(109, 40, 217, 0.45);
-}
-
-.specialSpin {
-  animation: spin 5s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.blur-load {
-  background-size: cover;
-  background-position: center;
-}
-
-.img {
-  object-position: center;
-  object-fit: cover;
-}
-
-.bg-merch {
-  background-color: #1a0a2c; /* A light peach color */
+::-webkit-scrollbar-thumb:hover {
+  background: none;
 }
