@@ -7,7 +7,6 @@
   import Footer from "$lib/components/landing/footer.svelte";
 </script>
 
-
 <section class="flex flex-col gap-40">
     <Header />
     <Hero />
