@@ -1,3 +1,11 @@
+<script lang="ts">
+    import { goto } from '$app/navigation';
+
+    function navigateToLogin() {
+        goto('/ADB-Real-Estate-Leasing-MS/login'); // for login button 
+    }
+</script>
+
 <header class="flex justify-between">
     <!-- logo of aricio bonina real estate leasing -->
     <div class="flex items-center gap-2.5">
@@ -14,7 +22,7 @@
     </nav>
 
     <!-- login button -->
-    <div class="border-2 border-slate p-2 w-32 rounded-full text-center flex justify-center cursor-pointer">
-        <button class="font-semibold text-slate text-xs">Get Started</button> <!-- redirect to login -->
+    <div class="text-xs text-slate font-semibold border-2 border-slate p-2 w-32 rounded-full text-center flex justify-center cursor-pointer hover:bg-slate hover:text-white hover:font-medium">
+        <button on:click={navigateToLogin} class="animation" style="transition: all 0.5s ease-in-out;">Get Started</button> <!-- redirect to login -->
     </div>
 </header>
