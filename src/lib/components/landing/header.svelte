@@ -15,6 +15,6 @@
 
     <!-- login button -->
     <div class="border-2 border-slate p-2 w-32 rounded-full text-center flex justify-center cursor-pointer">
-        <button class="font-semibold text-slate text-xs">Get Started</button> <!-- redirect to login -->
+        <a href="/ADB-Real-Estate-Leasing-MS/login" class="font-semibold text-slate text-xs">Login</a> <!-- redirect to login -->
     </div>
 </header>
